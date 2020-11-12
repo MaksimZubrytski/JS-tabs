@@ -1,0 +1,12 @@
+.tabs-nav__item.is-active {
+    background-color: green;
+}
+
+
+.tabs__content {
+    display: none;
+}
+
+.tabs__content.is-active {
+    display: block;
+}
