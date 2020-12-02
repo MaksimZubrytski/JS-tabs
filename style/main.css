@@ -1,5 +1,20 @@
+* {
+    text-align: center;
+}
+.tabs-nav__item {
+    padding: .5em 1em;
+    margin-left: 0.625em;
+
+    color: #fff;
+    text-decoration: none;
+    font-size: 1em;
+
+    background-color: #e8921c;
+    
+}
+
 .tabs-nav__item.is-active {
-    background-color: green;
+    background-color: #a87b3b;
 }
 
 
@@ -9,4 +24,12 @@
 
 .tabs__content.is-active {
     display: block;
+
+    width: 500px;
+    height: 300px;
+
+    margin: 20px auto;
+
+    background-color: #ededed;
+    border: 1px solid #ddd;
 }
